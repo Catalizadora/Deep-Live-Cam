@@ -1,0 +1,24 @@
+# Deep-Live-Cam — Side project face swap (referencia local)
+
+> Real-time face swap y video deepfake (single click, una sola imagen). Side project de Pablo.
+
+## Qué es
+
+Clone local del proyecto open-source Deep-Live-Cam (v2.1). Stack Python + tkinter UI + modelos en `models/`. Entry points: `run.py`, `start.sh`, `run-cuda.bat`, `run-directml.bat`. Features: real-time face swap, mouth mask, face mapping, multiple subjects.
+
+El README upstream declara explícitamente disclaimers éticos y checks built-in para evitar contenido inapropiado.
+
+## REGLA OPERATIVA — Uso responsable
+
+- NO usar para deepfakes maliciosos, suplantación de identidad, contenido no consentido ni desinformación.
+- Solo testing autorizado con consentimiento explícito del sujeto.
+- Cualquier output compartido públicamente debe estar etiquetado como deepfake.
+- Side project personal de Pablo: NO incluir en deliverables de clientes Catalizadora/Beautonomous.
+- Respetar las restricciones de contenido del proyecto upstream (no nudity, gore, war footage, etc.).
+
+## Memoria (Mem0)
+
+- **Namespace obligatorio**: cuando llames `memory_save` del MCP `mem0`, pasa SIEMPRE:
+  - `scope: "project_team"`
+  - `project: "deep-live-cam"`
+- **Antes de `memory_search`**, considera filtrar por `scope: "project_team"` para evitar contaminación con otros proyectos.
