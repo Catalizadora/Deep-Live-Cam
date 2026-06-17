@@ -27,3 +27,10 @@ faceswap/
 switch_states.json
 /models
 install.bat
+
+# --- secrets (audit Wave 3) ---
+.env
+.env.*
+!.env.example
+.envrc
+*.token.json

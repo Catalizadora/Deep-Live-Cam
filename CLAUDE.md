@@ -1,5 +1,11 @@
 # Deep-Live-Cam — Side project face swap (referencia local)
 
+## Identity (single source of truth)
+- Canonical slug: deep-live-cam
+- GitHub: Catalizadora/Deep-Live-Cam (origin) · upstream: hacksider/Deep-Live-Cam (ajeno)
+- Tipo: experimento personal / clon ML (NO cliente Catalizadora)
+- Stack: Python + tkinter UI + ONNX/insightface models
+
 > Real-time face swap y video deepfake (single click, una sola imagen). Side project de Pablo.
 
 ## Qué es
