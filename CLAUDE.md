@@ -2,6 +2,7 @@
 
 ## Identity (single source of truth)
 - Canonical slug: deep-live-cam
+- 🔐 Secretos: onboardéalos SOLO por el Rotation Vault `http://127.0.0.1:8799` (card por secreto → Keychain + Infisical + edge/host auto). NUNCA `security add-generic-password` a mano ni pegar valores en el chat. Ver skill `infra` §Secretos.
 - GitHub: Catalizadora/Deep-Live-Cam (origin) · upstream: hacksider/Deep-Live-Cam (ajeno)
 - Tipo: experimento personal / clon ML (NO cliente Catalizadora)
 - Stack: Python + tkinter UI + ONNX/insightface models
